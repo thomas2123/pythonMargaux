@@ -1,4 +1,5 @@
-def salut(nom):
-    return f"Bonjour {nom} !"
+import requests
 
-print(salut("Margaux"))
+response = requests.get("https://api.github.com")
+print(response.status_code)
+
