@@ -1,5 +1,6 @@
-import requests
+## Exercice 2.1 ##
 
-response = requests.get("https://api.github.com")
-print(response.status_code)
-
+print ("Enter your age")
+age = input()
+year = 100 - int(age)
+print(f'Tu auras 100 ans dans {year}')
